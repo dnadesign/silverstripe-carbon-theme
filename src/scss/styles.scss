@@ -1,0 +1,29 @@
+// 🔷 Carbon Design System
+// http://www.carbondesignsystem.com/getting-started/developers/vanilla
+
+// Re-declare Carbon variables
+// http://www.carbondesignsystem.com/getting-started/developers/vanilla#global-scss-variables
+@import 'globals/variables';
+
+// Carbon Theming Sandbox export
+@import 'globals/theme';
+
+// Carbon Components
+// http://www.carbondesignsystem.com/components/overview
+@import '~carbon-components/scss/globals/scss/styles';
+
+// ⚙ Globals
+@import 'globals/layout';
+@import 'globals/typography';
+
+// 📄 Templates
+@import 'templates/page';
+
+// 🏗 Components
+@import 'components/header';
+@import 'components/footer';
+@import 'components/breadcrumb';
+@import 'components/form';
+@import 'components/navigation';
+@import 'components/page-header';
+@import 'components/demo';
