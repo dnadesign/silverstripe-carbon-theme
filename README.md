@@ -7,7 +7,7 @@ A custom theme based on [Carbon Design System](http://www.carbondesignsystem.com
 Install this theme module with Composer:
 
 ```
-composer require dnadesign/carbon-theme
+composer require dnadesign/silverstripe-carbon-theme
 ```
 
 ## Getting started
