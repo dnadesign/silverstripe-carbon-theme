@@ -7,7 +7,7 @@ A custom theme based on [Carbon Design System](http://www.carbondesignsystem.com
 Install this theme module with Composer:
 
 ```
-composer require gmlnchv/carbon-theme
+composer require dnadesign/carbon-theme
 ```
 
 ## Getting started
