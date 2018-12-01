@@ -1,10 +1,78 @@
 .site-footer {
   padding: $spacing-3xl 0;
+  font-size: 0.75rem;
+  color: $text-02;
   background-color: $ui-02;
 
-  &__text {
-    color: $ui-05;
+  &__top-nav {
+    padding-bottom: $layout-md;
+
+    ul {
+      > li {
+        margin-bottom: $spacing-md;
+
+        > a {
+          color: $text-02;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  &__top-nav-title {
+    display: block;
+    color: $text-02;
+    text-decoration: none;
+    margin-bottom: $spacing-md;
+  }
+
+  &__social-nav {
+    > ul {
+      > li {
+        display: inline-block;
+        margin-right: $spacing-sm;
+
+        > a {
+          color: $text-02;
+          text-decoration: none;
+
+          // These hooks can be used to style social links
+          // &[href*="facebook"] {}
+          // &[href*="twitter"] {}
+          // &[href*="instagram"] {}
+        }
+      }
+    }
+  }
+
+  &__bottom-container {
+    border-top: 1px solid currentColor;
+    margin-top: $spacing-md;
+    padding-top: $spacing-md;
+  }
+
+  &__bottom-nav {
+    > ul {
+      > li {
+        margin: 0 $spacing-sm $spacing-2xs 0;
+
+        @media (min-width: breakpoint('md')) {
+          display: inline-block;
+        }
+
+        > a {
+          color: $text-02;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  &__copyright {
     font-size: 0.75rem;
-    margin-bottom: 0;
+
+    @media (min-width: breakpoint('md')) {
+      text-align: right;
+    }
   }
 }
