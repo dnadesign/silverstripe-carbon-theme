@@ -1,15 +1,7 @@
-import { Accordion, Modal } from 'carbon-components';
+import { Modal } from 'carbon-components';
 const prefix = 'dn';
 
 const init = () => {
-  Accordion.init(document, {
-    selectorInit: '[data-accordion]',
-    selectorAccordionItem: '[data-accordion-item]',
-    selectorAccordionItemHeading: `.${prefix}--accordion__heading`,
-    selectorAccordionContent: `.${prefix}--accordion__content`,
-    classActive: `${prefix}--accordion__item--active`
-  });
-
   Modal.init(document, {
     selectorInit: '[data-modal]',
     selectorModalClose: '[data-modal-close]',
